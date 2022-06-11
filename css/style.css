@@ -1,0 +1,128 @@
+@font-face {
+font-family: 'gothic_a1bold';
+src: url('/assets/fonts/gothica1-bold-webfont.woff2') format('woff2'),
+url('/assets/fonts/gothica1-bold-webfont.woff') format('woff'),
+url('/assets/fonts/gothica1-bold-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+  }
+
+  @font-face {
+font-family: 'advent_proregular';
+src: url('/assets/fonts/adventpro-regular-webfont.woff2') format('woff2'),
+url('/assets/fonts/adventpro-regular-webfont.woff') format('woff'),
+url('/assets/fonts/adventpro-regular-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(40,96,107);
+  background: linear-gradient(165deg, rgba(40,96,107,1) 0%, rgba(79,139,189,1) 65%, rgba(96,15,113,1) 100%);
+  }
+
+.headh1 {
+font-family: 'gothic_a1bold';
+font-size: 42px;
+letter-spacing: 2px;
+font-weight: 700;
+text-transform: uppercase;
+color: #cfb2ad;
+
+}
+
+.headh2 {
+font-family: 'gothic_a1bold';
+font-size: 32px;
+font-weight: 500;
+color: #cfb2ad;
+}
+
+.paragrph {
+font-family: 'advent_proregular';
+font-size: 18px;
+font-weight: 500;
+color: #cfb2ad;
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+}
+
+.header {
+padding: 10px 0;
+background-color: gray;
+background: rgb(40,96,107);
+background: linear-gradient(90deg, rgba(40,96,107,1) 0%, rgba(5,107,185,1) 51%, rgba(143,140,200,1) 100%);
+}
+
+footer {
+padding: 15px 0;
+background-color: #545a80;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.avatar-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section {
+display: flex;
+align-items: center;
+justify-content: space-around;
+border: solid thin #1dc2dd;
+margin: 10px 0;
+border-radius: 7px;
+}
+
+.section div {
+  width: 37%;
+}
+.section div:last-child {
+  border-left: #dd0c29 solid 4px;
+  padding-left: 10px;
+}
+
+.section ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.main-menu li a {
+  color: #4bdd6a;
+  text-decoration: none;
+}
+
+.main-menu li a:hover {
+  color: #dd871d;
+  text-decoration: underline;
+  transition: color 1s;
+}
+
+.check {
+  color: #e62e0f;
+}
+
+.author-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c39f0c;
+}
+
+.author-logo a {
+  text-decoration: none;
+  color: #c39f0c;
+}
