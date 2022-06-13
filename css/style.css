@@ -48,6 +48,13 @@ font-size: 18px;
 font-weight: 500;
 color: #cfb2ad;
 }
+.paragrph li a{
+  text-decoration: none;
+  color: #cfb2ad;
+}
+
+
+
 
 .container {
 max-width: 1440px;
@@ -89,6 +96,7 @@ border-radius: 7px;
 
 .section div {
   width: 37%;
+  padding: 20px 0;
 }
 .section div:last-child {
   border-left: #dd0c29 solid 4px;
