@@ -48,13 +48,11 @@ font-size: 18px;
 font-weight: 500;
 color: #cfb2ad;
 }
-.paragrph li a{
+
+.paragrph li a {
   text-decoration: none;
   color: #cfb2ad;
 }
-
-
-
 
 .container {
 max-width: 1440px;
@@ -120,7 +118,7 @@ border-radius: 7px;
 }
 
 .check {
-  color: #e62e0f;
+  color: #ff7e18;
 }
 
 .author-logo {
